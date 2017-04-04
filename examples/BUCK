@@ -1,0 +1,59 @@
+cxx_binary(
+  name = 'custom_header',
+  srcs = [
+    'custom_header.cc',
+  ],
+  deps = [
+    '//:pistache',
+  ],
+)
+
+cxx_binary(
+  name = 'hello_server',
+  srcs = [
+    'hello_server.cc',
+  ],
+  deps = [
+    '//:pistache',
+  ],
+)
+
+cxx_binary(
+  name = 'http_client',
+  srcs = [
+    'http_client.cc',
+  ],
+  deps = [
+    '//:pistache',
+  ],
+)
+
+cxx_binary(
+  name = 'http_server',
+  srcs = [
+    'http_server.cc',
+  ],
+  deps = [
+    '//:pistache',
+  ],
+)
+
+cxx_binary(
+  name = 'rest_description',
+  srcs = [
+    'rest_description.cc',
+  ],
+  deps = [
+    '//:pistache',
+  ],
+)
+
+cxx_binary(
+  name = 'rest_server',
+  srcs = [
+    'rest_server.cc',
+  ],
+  deps = [
+    '//:pistache',
+  ],
+)

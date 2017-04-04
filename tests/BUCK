@@ -1,0 +1,90 @@
+cxx_test(
+  name = 'async_test',
+  srcs = [
+    'async_test.cc',
+  ],
+  compiler_flags = [
+    '-std=c++11',
+  ],
+  deps = [
+    '//:pistache',
+  ],
+)
+
+cxx_test(
+  name = 'cookie_test',
+  srcs = [
+    'cookie_test.cc',
+  ],
+  compiler_flags = [
+    '-std=c++11',
+  ],
+  deps = [
+    '//:pistache',
+  ],
+)
+
+cxx_test(
+  name = 'headers_test',
+  srcs = [
+    'headers_test.cc',
+  ],
+  compiler_flags = [
+    '-std=c++11',
+  ],
+  deps = [
+    '//:pistache',
+  ],
+)
+
+cxx_test(
+  name = 'mime_test',
+  srcs = [
+    'mime_test.cc',
+  ],
+  compiler_flags = [
+    '-std=c++11',
+  ],
+  deps = [
+    '//:pistache',
+  ],
+)
+
+cxx_test(
+  name = 'router_test',
+  srcs = [
+    'router_test.cc',
+  ],
+  compiler_flags = [
+    '-std=c++11',
+  ],
+  deps = [
+    '//:pistache',
+  ],
+)
+
+cxx_test(
+  name = 'typeid_test',
+  srcs = [
+    'typeid_test.cc',
+  ],
+  compiler_flags = [
+    '-std=c++11',
+  ],
+  deps = [
+    '//:pistache',
+  ],
+)
+
+cxx_test(
+  name = 'view_test',
+  srcs = [
+    'view_test.cc',
+  ],
+  compiler_flags = [
+    '-std=c++11',
+  ],
+  deps = [
+    '//:pistache',
+  ],
+)
