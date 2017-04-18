@@ -3,6 +3,9 @@ cxx_library(
   header_namespace = '',
   exported_headers = subdir_glob([
     ('include', '**/*.h'),
+  ], prefix = 'pistache'),
+  headers = subdir_glob([
+    ('include', '**/*.h'),
   ]),
   srcs = glob([
     'src/**/*.cc',
