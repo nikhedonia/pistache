@@ -10,6 +10,11 @@ cxx_library(
   compiler_flags = [
     '-std=c++11',
   ],
+  exported_platform_linker_flags = [
+    ('.*linux.*', ['-lpthread']),
+    ('.*osx.*', ['-lpthread']),
+    ('default', ['-lpthread']),
+  ],
   visibility = [
     'PUBLIC',
   ],
